@@ -1,0 +1,216 @@
+/* .flx{
+    position: flex;
+    flex-direction: row;
+    justify-items: center;
+    width: 60vw;
+    height: 60vh;
+    
+}
+
+
+
+
+.main {
+  animation properties
+  animation-name: my-animation;
+  animation-duration: 3s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+/*   
+  other properties
+  width: 400px;
+  height: 200px;
+  border-radius: 10px;
+  margin-top: 10%;
+  position: absolute;
+  left: 0; 
+  right: 0; 
+  margin-left: auto;
+  margin-right: auto; 
+
+}
+.sq{ 
+    animation: sq 3s  infinite alternate forwards;
+    background-color: black;
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    position: absolute;
+    top: 18%;left: 30%;
+}
+@keyframes sq{
+from{
+    background-color: #ff7a59;
+    left: 5%;
+}
+to{
+    background-color: #631501;
+    left: 30%;
+}
+
+}
+@keyframes my-animation {
+  from {
+    background-color: #ff7a59;
+    width: 400px;
+    top: 10px;
+  
+  }
+  to {
+    background-color: #33475b;
+    width: 50px;
+    top: 100px;
+   
+  /* }
+/* } */ 
+html {
+    background: #fcf6f6;
+  }
+  
+  .logo-holder {
+      background: #5a0505;
+      width: 20vw;
+      height: 43vh;
+      position: absolute;
+      top: 20%; left: 40%;
+      margin: 0 auto ;
+      padding-top: 3%;
+      padding-bottom: 3%;
+
+      animation-name: my-animation;
+      animation-duration: 7s;
+      animation-fill-mode:forwards;
+      
+      /* animation-direction:alternate; */
+      animation-iteration-count:infinite;
+      animation-timing-function: linear;
+   
+     
+    
+   }
+
+  
+  .bg {
+  
+    position: absolute;
+    top: 3%;
+    left: 3%;
+    right: 3%;
+    bottom: 3%;
+    background:rgb(43, 38, 38) ;
+    
+ 
+  }
+  
+
+  .bar {
+      position: relative;
+      height: 3vh;
+      background: #6a6a6a;
+      width:  0vw;
+      top: 5%;
+      left: 5%;
+      margin-top:3%;
+      margin-left: 4%;
+      box-shadow: 0 0 5px rgba(58, 23, 23, 0.9);
+      animation: fill 5s infinite alternate, colors 5s infinite alternate;
+     
+  }
+  @keyframes  my-animation {
+     0% { transform: rotate(0deg) ; } 
+    100% { transform: rotate(360deg) rotate3d(0, 1, 0, 180deg); }
+  }
+  
+  
+  .bar.fill1 {
+    animation: fill-1 5s infinite alternate, colors 5s infinite alternate;
+  }
+  
+  .bar.fill2 {
+     animation:  fill-2 5s infinite alternate, colors 5s infinite alternate;
+  }
+  
+  
+  .bar.fill3 {
+     animation:  fill-3 5s infinite alternate, colors 5s infinite alternate;
+  }
+  
+  
+  .bar.fill4 {
+     animation:  fill-4 5s infinite alternate, colors 5s infinite alternate;
+  }
+  
+  .bar.fill5 {
+     animation:  fill-5 5s infinite alternate, colors 5s infinite alternate;
+  }
+  
+  .bar.fill6 {
+     animation: fill-6 5s infinite alternate, colors 5s infinite alternate;
+  }
+  
+  
+  
+  @keyframes fill {
+    0%   { width: 0; }
+    33%  { width: 10vw;}
+    66%  { width: 8vw;}
+    100% { width: 9vw; }
+
+  }
+  
+  @keyframes fill-1 {
+    0%   { width: 0; }
+    33%  { width: 12vw;}
+    66%  { width: 1vw;}
+    100% { width: 14vw; }
+  }
+  
+  @keyframes fill-2 {
+    0%   { width: 0; }
+    33%  { width: 16vw;}
+    66%  { width: 11vw;}
+    100% { width: 5vw; }
+  }
+  
+  @keyframes fill-3 {
+    0%   { width: 0; }
+    33%  { width: 4vw;}
+    66%  { width: 7vw;}
+    100% { width: 1vw; }
+  }
+  
+  @keyframes fill-4 {
+    0%   { width: 0; }
+    33%  { width: 13.8vw;}
+    66%  { width: 10vw;}
+    100% { width: 1vw; }
+  }
+  
+  @keyframes fill-5 {
+    0%   { width: 0; }
+    33%  { width: 2vw;}
+    66%  { width: 8vw;}
+    100% { width: 14vw; }
+  }
+  
+  
+  @keyframes fill-6 {
+    0%   { width: 0; }
+    33%  { width: 13vw;}
+    66%  { width: 9vw;}
+    100% { width: 2vw; }
+  }
+  
+  @keyframes colors {
+    0% { background-color:rgb(53, 11, 50);}
+    35%{background-color: rgb(201, 50, 88);}
+    50% { background-color:rgb(126, 5, 5);}
+    100% { background-color: rgb(247, 169, 196);}
+  }
+  /* @media (max-width: 750px), (max-height: 450px) { .logo-holder {    width: 14vw;
+    height: 39vh;; } }
+@media (max-width: 450px), (max-height: 350px) { .logo-holder {   width: 10vw;
+    height: 35vh; } }
+@media (max-width: 280px), (max-height: 250px) { .logo-holder {    width: 7vw;
+    height: 32vh; } } */
